@@ -1,2 +1,20 @@
-# CALMORA
-CALMORA adalah aplikasi mental wellness yang membantu pengguna mengelola stres, overthinking, mood, dan kesehatan emosional harian. Dengan fitur seperti Mood Tracker, Journal, Relax Sound, dan Stress Check, CALMORA menjadi ruang aman digital untuk refleksi diri dan menjaga ketenangan pikiran.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/46a438f8-5baf-4bc1-89f9-11ff156c1dca
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

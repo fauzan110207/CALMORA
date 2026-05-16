@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  /* Primary Palette */
+  --color-lavender: #A7A6D1;
+  --color-sage: #8EB486;
+  --color-cream: #FDFBF7;
+  --color-beige: #F5E6D3;
+  --color-dusty-blue: #A8DADC;
+  --color-soft-pink: #F3D9D9;
+  
+  /* Brand Specifics */
+  --color-primary: var(--color-lavender);
+  --color-secondary: var(--color-sage);
+  --color-background: var(--color-cream);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-neutral-800 font-sans antialiased overflow-x-hidden;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
